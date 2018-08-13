@@ -1,0 +1,12 @@
+/* pages/map/map.wxss */
+
+.container {
+  height: 100%;
+  width: 100%;
+  position: fixed;
+}
+
+.map_view {
+  height: 100%;
+  width: 100%;
+}

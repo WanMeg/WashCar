@@ -1,0 +1,32 @@
+<!--pages/orderDetail/orderDetail.wxml-->
+
+
+<view class='container'>
+
+
+  <view class='status_view'>
+    <image class='status_img' src='../../images/order_success.png'></image>
+    <text class='status_text'>交易成功</text>
+
+  </view>
+
+
+  <view class='info_view'>
+    <image class='image' src='../../images/order.png'></image>
+    <text class='name'>车友汇24小时洗车店</text>
+  </view>
+
+
+  <view class='pay_view'>
+    <text class='pay_left_text'>实付</text>
+    <text class='price_text'>￥99.89</text>
+  </view>
+
+
+  <view class='other_view'>
+    <text class='order_num_text'>订单编号：9898786765123</text>
+    <text class='date_text'>成交时间：2018-08-07 09:13:23</text>
+  </view>
+
+
+</view>

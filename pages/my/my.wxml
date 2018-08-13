@@ -1,0 +1,18 @@
+<!--pages/my/my.wxml-->
+
+
+<view class='container'>
+
+  <view class='header_view'>
+
+    <image class='header_image' src='../../images/my_head.png'></image>
+    <text class='phone'>{{phoneNumber}}</text>
+  </view>
+
+
+  <view class='list_view' wx:for='{{listViewItem}}' wx:key='listKey' id='{{index}}' bindtap='listItemTap'>
+    <image class='list_icon' src='{{item.icon}}'></image>
+    <text class='list_text'>{{item.title}}</text>
+  </view>
+
+</view>

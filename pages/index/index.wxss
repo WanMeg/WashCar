@@ -1,0 +1,86 @@
+/**index.wxss**/
+
+page {
+  background-color: #f1f2f4;
+}
+
+.header_view {
+  width: 750rpx;
+  height: 480rpx;
+}
+
+.top_image {
+  width: 750rpx;
+  height: 480rpx;
+}
+
+.type_view {
+  width: 710rpx;
+  margin-left: 20rpx;
+  margin-right: 20rpx;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.left_subview {
+  width: 350rpx;
+  height: auto;
+  margin-top: 20rpx;
+  margin-bottom: 20rpx;
+  background-color: #5abbe7;
+  border-radius: 6rpx;
+  display: flex;
+  flex-direction: column;
+}
+
+.left_view_text {
+  margin-top: 30rpx;
+  margin-left: 20rpx;
+  font-size: 28rpx;
+  color: white;
+}
+
+.left_subview_downview {
+  width: 100%;
+  height: 80%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.xiche_image {
+  width: 50%;
+  height: 140rpx;
+}
+
+
+.right_view {
+  width: 350rpx;
+  height: auto;
+  margin-top: 20rpx;
+  margin-bottom: 20rpx;
+  background-color: #f1f2f4;
+}
+
+.right_subview1 {
+  width: 100%;
+  background-color: #e95c49;
+  border-radius: 6rpx;
+  display: flex;
+  flex-direction: column;
+}
+
+.right_subview2 {
+  margin-top: 10rpx;
+  width: 100%;
+  background-color: #f58f39;
+  border-radius: 6rpx;
+  display: flex;
+  flex-direction: column;
+}
+
+.right_image {
+  width: 100rpx;
+  height: 100rpx;
+}

@@ -1,0 +1,24 @@
+<!--pages/changephone/changephone.wxml-->
+
+
+<view class='section'>
+
+  <view class='view'>
+    <text class='text'>手机号</text>
+    <input class='input' type='number' placeholder='请输入新的手机号'></input>
+  </view>
+
+
+  <view class='view'>
+    <text class='text'>验证码</text>
+    <input class='input' type='number' placeholder='请输入验证码'></input>
+    <view class='get_code_view'>
+      <text class='get_code_text'>获取验证码</text>
+    </view>
+  </view>
+</view>
+
+
+<view class='ok_view' bindtap='okTap'>
+  <text class='ok_text'>完成</text>
+</view>

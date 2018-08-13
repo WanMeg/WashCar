@@ -1,0 +1,103 @@
+/* pages/order/order.wxss */
+
+page {
+  background-color: #f1f2f4;
+}
+
+.header_view {
+  width: 100%;
+  height: 20rpx;
+  background-color: #f1f2f4;
+}
+
+.list_view {
+  width: 100%;
+  height: auto;
+  background-color: white;
+  border-bottom: 20rpx solid #f1f2f4;
+}
+
+.top_view {
+  width: 100%;
+  height: 70rpx;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 0.4rpx solid #f1f2f4;
+}
+
+.date_text {
+  color: black;
+  font-size: 26rpx;
+  margin-left: 25rpx;
+}
+
+.status_text {
+  color: black;
+  font-size: 26rpx;
+  margin-right: 25rpx;
+  text-align: right;
+}
+
+.info_view {
+  width: 700rpx;
+  height: 130rpx;
+  margin-left: 25rpx;
+  margin-right: 25rpx;
+  display: flex;
+  align-items: center;
+  border-bottom: 0.4rpx solid #f1f2f4;
+}
+
+.image {
+  width: 115rpx;
+  height: 115rpx;
+}
+
+.name {
+  font-size: 28rpx;
+  color: black;
+  width: 355rpx;
+  margin-left: 15rpx;
+  margin-right: 15rpx;
+}
+
+.price {
+  font-size: 30rpx;
+  color: black;
+  width: 200rpx;
+  text-align: right;
+}
+
+
+.total_view {
+  width: 100%;
+  height: 130rpx;
+}
+
+.total_subview {
+  width: 700rpx;
+  height: 60rpx;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  margin-left: 25rpx;
+  margin-right: 25rpx;
+}
+
+.total_price {
+  font-size: 28rpx;
+  color: black;
+  text-align: right;
+}
+
+.check_view {
+  height: 50rpx;
+  width: 140rpx;
+  border: 0.3rpx solid lightgray;
+  font-size: 26rpx;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

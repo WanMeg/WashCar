@@ -1,0 +1,37 @@
+<!--pages/wallet/wallet.wxml-->
+
+
+<view class='container'>
+
+  <view class='header_view'>
+    <view class='header_upview'>
+      <text class='yue_text'>100.00元</text>
+    </view>
+
+    <view class='header_subview'>
+      <image class='cloud_img' src='../../images/bag_icon.png'></image>
+      <view class='cz_view' bindtap='rechargeTap'>
+        <text class='cz_text'>充值</text>
+      </view>
+    </view>
+  </view>
+
+  <view class='jilu_view'>
+    <text class='jilu_text'>充值记录</text>
+  </view>
+
+
+  <view class='list_view'>
+    <view class='list_item_view' wx:for='{{listViewItem}}' wx:key='keys'>
+      <view class='left_view'>
+        <text class='status_text'>{{item.title}}</text>
+        <text class='date_text'>{{item.date}}</text>
+      </view>
+      <view class='right_view'>
+      <text class='price_text'>{{item.price}}</text>
+      </view>
+    </view>
+
+  </view>
+
+</view>

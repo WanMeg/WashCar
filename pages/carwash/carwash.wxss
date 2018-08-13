@@ -1,0 +1,96 @@
+/* pages/carWash/carWash.wxss */
+
+
+.info_view {
+  margin-top: 20rpx;
+  width: 750rpx;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  border-top: 2rpx solid #f1f2f4;
+  box-shadow: 0rpx 2rpx 2rpx 2rpx #f1f2f4;
+}
+
+
+.title {
+  margin: 25rpx;
+  font-size: 32rpx;
+  font-weight: bold;
+  color: #333333;
+}
+
+.line_view {
+  width: 700rpx;
+  height: 0.5rpx;
+  margin-left: 25rpx;
+  margin-right: 25rpx;
+  background-color: #f1f2f4;
+}
+
+
+.address_view {
+  width: 100%;
+  height: 130rpx;
+  display: flex;
+  align-items: center;
+}
+
+
+.location {
+  margin-left: 25rpx;
+  width: 30rpx;
+  height: 30rpx;
+}
+
+
+.address_subview {
+  margin-left: 15rpx;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.address_text {
+  font-size: 28rpx;
+  color: #666666;
+}
+
+.distance {
+  margin-top: 10rpx;
+  font-size: 28rpx;
+  color: #666666;
+}
+
+
+.btn_view {
+  margin-top: 80rpx;
+  height: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.btn_left_view {
+  width: 30%;
+  height: 70rpx;
+  background-color: #ff4200;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 13%;
+}
+
+.pay_text {
+  font-size: 26rpx;
+  color: white;
+}
+
+.btn_right_view {
+  width: 30%;
+  height: 70rpx;
+  background-color: #50b5eb;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 13%;
+}

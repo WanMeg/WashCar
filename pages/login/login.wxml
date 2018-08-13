@@ -1,0 +1,41 @@
+<!--pages/login/login.wxml-->
+
+
+<view class='header_view'>
+  <image class='back_img' src='../../images/back.png' bindtap='backTap' hidden='true'></image>
+  <view class='icon_view'>
+    <image class='image' src='../../images/login_icon.png'></image>
+  </view>
+</view>
+
+<view class='edit_view'>
+  <view class='view'>
+    <text class='text'>手机号</text>
+    <input class='input' type='number' placeholder='请输入手机号' bindinput='phoneInputChange'></input>
+  </view>
+
+
+  <view class='view'>
+    <text class='text'>验证码</text>
+    <input class='input' type='number' placeholder='请输入验证码' bindinput='codeInputChange'></input>
+    <view class='get_code_view' style="background-color:{{codeViewColor}}">
+      <view class='code_tap_view' hidden='{{getCodeViewHidden}}' bindtap='getCodeTap'></view>
+      <text class='get_code_text'>{{getCodeText}}</text>
+    </view>
+  </view>
+
+
+  <view class='start_view' style="background-color:{{startViewColor}}">
+    <view class='start_tap_view' hidden='{{startTapViewHidden}}' bindtap='startTap'></view>
+    <text class='start_text'>开始</text>
+  </view>
+
+  <view class='agree_view'>
+    <text class='left_text'>点击开始，即表示已阅读并同意</text>
+    <text class='right_text'>《洗车服务条款》</text>
+  </view>
+
+  <view class='back_view' bindtap='backViewTap'>
+    <text class='start_text'>返回首页</text>
+  </view>
+</view>

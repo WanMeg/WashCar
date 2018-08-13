@@ -1,0 +1,6 @@
+<!--pages/launch/launch.wxml-->
+
+
+<view class='container'>
+  <image class='image' src='../../images/launch.png'></image>
+</view>

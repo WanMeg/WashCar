@@ -1,0 +1,36 @@
+<!--pages/carWash/carWash.wxml-->
+
+<view class='container'>
+
+
+
+  <view class='info_view'>
+    <text class='title'>车友汇24小时洗车店(开阳里店)</text>
+    <view class='line_view'></view>
+
+    <view class='address_view'>
+      <image class='location' src='../../images/locations.png'></image>
+      <view class='address_subview'>
+        <text class='address_text'>北京市丰台区开阳里东巷24号</text>
+        <text class='distance'>距您3.2km</text>
+      </view>
+    </view>
+  </view>
+
+  <view class='btn_view'>
+    <view class='btn_left_view' bindtap='payTap'>
+      <text class='pay_text'>支付</text>
+    </view>
+
+    <view class='btn_right_view' bindtap='navigationTap'>
+      <text class='pay_text'>开始导航</text>
+    </view>
+  </view>
+
+
+
+
+
+
+
+</view>

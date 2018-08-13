@@ -1,0 +1,47 @@
+{
+  "pages": [
+    "pages/launch/launch",
+    "pages/index/index",
+    "pages/my/my",
+    "pages/order/order",
+    "pages/orderdetail/orderdetail",
+    "pages/carwash/carwash",
+    "pages/payorder/payorder",
+    "pages/recharge/recharge",
+    "pages/set/set",
+    "pages/changephone/changephone",
+    "pages/wallet/wallet",
+    "pages/login/login",
+    "pages/map/map"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#50b5eb",
+    "navigationBarTitleText": "",
+    "navigationBarTextStyle": "white"
+  },
+  "tabBar": {
+    "color": "#000000",
+    "selectedColor": "#50b5eb",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "images/tabbar_home_nor.png",
+        "selectedIconPath": "images/tabbar_home_sel.png"
+      },
+      {
+        "pagePath": "pages/order/order",
+        "text": "订单",
+        "iconPath": "images/tabbar_order_nor.png",
+        "selectedIconPath": "images/tabbar_order_sel.png"
+      },
+      {
+        "pagePath": "pages/my/my",
+        "text": "我的",
+        "iconPath": "images/tabbar_my_nor.png",
+        "selectedIconPath": "images/tabbar_my_sel.png"
+      }
+    ]
+  }
+}

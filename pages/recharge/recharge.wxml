@@ -1,0 +1,31 @@
+<!--pages/recharge/recharge.wxml-->
+
+
+<view class='container'>
+
+  <view class='section_one'>
+
+    <text class='price_text'>充值金额</text>
+    <view class='price_view'>
+      <text class='rmb_text'>￥</text>
+      <input class='input' type='digit' maxlength="10" placeholder='请输入您要充值的金额' bindinput='moneyInput'></input>
+    </view>
+  </view>
+
+  <view class='style_view'>
+    <view class='con_top_view'>
+      <text class='con_title'>选择支付方式</text>
+    </view>
+    <view class='pay_style_view' wx:for='{{payStyleItems}}' wx:key='styleKey' id='{{item.payId}}' bindtap='payStyleViewTap'>
+      <image class='pay_icon' src='{{item.icon}}'></image>
+      <text class='pay_style_text'>{{item.title}}</text>
+      <image class='pay_select_img' src="{{item.select ? '../../images/order_success.png' : '../../images/pay_nor.png'}}"></image>
+    </view>
+  </view>
+
+  <view class='pay_view' style="background-color:{{confirmViewColor}}">
+    <view class='pay_tap_view' bindtap='confirmPayTap' hidden='{{payTapViewHidden}}'></view>
+    <text class='pay_text'>确认支付 {{rechargeMoney}}元</text>
+  </view>
+
+</view>

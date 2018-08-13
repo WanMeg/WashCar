@@ -1,0 +1,126 @@
+/* pages/recharge/recharge.wxss */
+
+page {
+  background-color: #f1f2f4;
+}
+
+.section_one {
+  width: 100%;
+  height: 200rpx;
+  margin-top: 25rpx;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+}
+
+.price_text {
+  font-size: 26rpx;
+  margin-left: 25rpx;
+  margin-top: 25rpx;
+  color: #666666;
+}
+
+.price_view {
+  width: 700rpx;
+  margin-top: 40rpx;
+  height: 55rpx;
+  display: flex;
+  align-items: center;
+  margin-left: 25rpx;
+  margin-right: 25rpx;
+  border-bottom: 0.4rpx solid #f1f2f4;
+}
+
+
+.rmb_text {
+  width: 40rpx;
+  font-size: 40rpx;
+  font-weight: bold;
+}
+
+
+.input {
+  margin-left: 10rpx;
+  width: 680rpx;
+  font-size: 38rpx;
+}
+
+
+
+
+.style_view {
+  width: 100%;
+  height: auto;
+  background-color: white;
+  margin-top: 20rpx;
+}
+
+.con_top_view {
+  width: 100%;
+  height: 90rpx;
+  display: flex;
+  align-items: center;
+  border-bottom: 0.4rpx solid #f1f2f4;
+}
+
+.con_title {
+  font-size: 30rpx;
+  font-weight: bold;
+  margin-left: 25rpx;
+  color: #333333;
+}
+
+.pay_style_view {
+  width: 100%;
+  height: 120rpx;
+  display: flex;
+  align-items: center;
+  border-bottom: 0.4rpx solid #f1f2f4;
+}
+
+.pay_icon {
+  height: 50rpx;
+  width: 50rpx;
+  margin-left: 25rpx;
+}
+
+.pay_style_text {
+  margin-left: 30rpx;
+  margin-right: 30rpx;
+  width: 555rpx;
+  font-size: 30rpx;
+  color: #333;
+}
+
+.pay_select_img {
+  height: 35rpx;
+  width: 35rpx;
+  margin-right: 25rpx;
+}
+
+
+
+.pay_view {
+  margin-top: 80rpx;
+  margin-left: 25rpx;
+  margin-right: 25rpx;
+  height: 74rpx;
+  width: 700rpx;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #50b5eb;
+  position: relative;
+}
+
+.pay_tap_view {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  opacity: 0;
+  top: 0;
+}
+.pay_text {
+  font-size: 28rpx;
+  color: white;
+}

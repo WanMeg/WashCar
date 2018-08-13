@@ -1,0 +1,30 @@
+<!--pages/order/order.wxml-->
+
+
+<view class='contianer'>
+
+  <view class='header_view'></view>
+
+  <view class='list_view' wx:for='{{listViewItems}}' wx:key='key'>
+    <view class='top_view'>
+      <text class='date_text'>{{item.date}}</text>
+      <text class='status_text'>{{item.status}}</text>
+    </view>
+
+    <view class='info_view'>
+      <image class='image' src='{{item.image}}'></image>
+      <text class='name'>{{item.title}}</text>
+      <text class='price'>￥{{item.price}}</text>
+    </view>
+
+    <view class='total_view'>
+      <view class='total_subview'>
+        <text class='total_price'>共{{item.count}}件 总计:￥{{item.totalprice}}</text>
+      </view>
+      <view class='total_subview'>
+        <view class='check_view' bindtap='checkOrderDetail' id='{{item.index}}'>查看详情</view>
+      </view>
+    </view>
+  </view>
+
+</view>

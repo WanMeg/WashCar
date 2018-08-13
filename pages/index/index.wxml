@@ -1,0 +1,36 @@
+<!--index.wxml-->
+<view class="container">
+
+
+  <view class='header_view'>
+    <image class='top_image' src='../../images/home_bg.png'></image>
+  </view>
+
+  <view class='type_view' style="height:{{second_height}}px">
+
+
+    <view class='left_subview' bindtap='carWashTap'>
+      <text class='left_view_text'>我要洗车</text>
+      <view class='left_subview_downview'>
+        <image class='xiche_image' src='../../images/home_xc.png'></image>
+      </view>
+
+    </view>
+
+    <view class='right_view'>
+      <view class='right_subview1' bindtap='rechargeTap' style="height:{{subview_height}}px">
+        <text class='left_view_text'>我要充值</text>
+        <view class='left_subview_downview'>
+          <image class='right_image' src='../../images/home_cz.png'></image>
+        </view>
+      </view>
+      <view class='right_subview2' bindtap='payTap' style="height:{{subview_height}}px">
+        <text class='left_view_text'>我要付款</text>
+        <view class='left_subview_downview'>
+          <image class='right_image' src='../../images/home_fk.png'></image>
+        </view>
+      </view>
+    </view>
+  </view>
+
+</view>
